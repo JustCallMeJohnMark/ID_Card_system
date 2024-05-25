@@ -1,0 +1,61 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* No repeating of the image */
+    background-attachment: fixed; /* Fixed background */
+}
+
+.container {
+    width: auto;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,0,0,0.25);
+}
+
+h2 {
+    text-align: center;
+    color: #ffa31a;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.id-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.id-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.id-card p {
+    margin: 5px 0;
+}
